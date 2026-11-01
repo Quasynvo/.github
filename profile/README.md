@@ -89,6 +89,10 @@ once will come back again.
 
 ---
 
+## Maintainer
+
+**[Ranjith Rosan](https://github.com/RANJITHROSAN17)** maintains Pinch Foundry’s organisation profile and community-health defaults. Pinch and its community contributors are credited in the [project repository](https://github.com/pinchfoundry/Pinch).
+
 ## Community & governance
 
 | | |
