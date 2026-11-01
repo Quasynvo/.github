@@ -6,7 +6,7 @@
 
 **Software that runs on your machine, not someone else's.**
 
-[**Pinch**](https://github.com/pinchfoundry/Pinch) · [Docs](https://pinchfoundry.github.io/Pinch/) · [Good first issues](https://github.com/pinchfoundry/Pinch/labels/good%20first%20issue) · [Contributing](./CONTRIBUTING.md)
+[**Pinch**](https://github.com/pinchfoundry/Pinch) · [Docs](https://pinchfoundry.github.io/Pinch/) · [Good first issues](https://github.com/pinchfoundry/Pinch/labels/good%20first%20issue) · [Contributing](https://github.com/pinchfoundry/.github/blob/main/CONTRIBUTING.md)
 
 </div>
 
@@ -23,7 +23,7 @@ Three rules we don't break:
 | Rule | What it means in practice |
 | :--- | :--- |
 | **It runs on your hardware** | Local model by default. No account, no server of ours in the path. |
-| **It fits in your head** | ~7,300 lines. Small enough to audit before you trust it with a shell. |
+| **It is inspectable** | Source, capability evidence and a documented security review are public. Inspect the current revision before granting tool access; a review is not a safety guarantee. |
 | **It admits what it can't do** | Our own [security audit](https://github.com/pinchfoundry/Pinch/blob/main/docs/AUDIT.md) lists the findings we haven't fixed yet. |
 
 ---
@@ -62,6 +62,10 @@ security policy, issue and PR templates — inherited by every repo we create.
 
 ---
 
+## Try before configuring accounts
+
+From a Pinch clone with Node.js 22+, run `npm run demo` to inspect the canned interaction flow without model or messaging credentials. The demo is scripted evidence of the interface, not a real-model benchmark. It disables the panel key; do not expose or forward its port, and do not treat it as a security sandbox. For actual use, keep the model local unless you deliberately opt into a cloud provider; messaging platforms have their own data policies.
+
 ## How to get involved
 
 ```bash
@@ -76,9 +80,9 @@ No build step. No dependency install. If it runs, you can hack on it.
 
 | Time | Do this |
 | :--- | :--- |
-| **5 minutes** | Find a bug, open an issue with your `pinch doctor` output |
+| **First check** | Run `npm run doctor` from your Pinch clone; report a reproducible problem with redacted diagnostics |
 | **1 hour** | Pick a [good first issue](https://github.com/pinchfoundry/Pinch/labels/good%20first%20issue) — each one names the exact files and the command that proves it works |
-| **A weekend** | Add a tool. [CONTRIBUTING.md](./CONTRIBUTING.md) has the whole recipe, and it is genuinely small |
+| **A weekend** | Add a tool. [CONTRIBUTING.md](https://github.com/pinchfoundry/.github/blob/main/CONTRIBUTING.md) has the whole recipe, and it is genuinely small |
 
 Every fix needs a regression test. Not because we like ceremony — because a bug that comes back
 once will come back again.
@@ -89,9 +93,9 @@ once will come back again.
 
 | | |
 | :--- | :--- |
-| **Code of Conduct** | [Contributor Covenant v2.1](./CODE_OF_CONDUCT.md) — enforced |
-| **Security** | [Report privately](./SECURITY.md). Never in a public issue. |
-| **Contributing** | [CONTRIBUTING.md](./CONTRIBUTING.md) — setup, style, commit conventions |
+| **Code of Conduct** | [Contributor Covenant v2.1](https://github.com/pinchfoundry/.github/blob/main/CODE_OF_CONDUCT.md) — enforced |
+| **Security** | [Report privately](https://github.com/pinchfoundry/.github/blob/main/SECURITY.md). Never in a public issue. |
+| **Contributing** | [CONTRIBUTING.md](https://github.com/pinchfoundry/.github/blob/main/CONTRIBUTING.md) — setup, style, commit conventions |
 | **Support** | [docs/SUPPORT.md](https://github.com/pinchfoundry/Pinch/blob/main/docs/SUPPORT.md) |
 | **Roadmap** | [.github/roadmap.json](https://github.com/pinchfoundry/Pinch/blob/main/.github/roadmap.json) — human-reviewed, never generated |
 
