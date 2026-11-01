@@ -1,0 +1,11 @@
+blank_issues_enabled: true
+contact_links:
+  - name: "Good first issues (curated queue)"
+    url: "https://github.com/pinchfoundry"
+    about: "Human-reviewed, self-contained tasks with exact file paths and verification commands."
+  - name: "Report a security vulnerability privately"
+    url: "https://github.com/pinchfoundry/.github/security/advisories/new"
+    about: "Please do NOT open a public issue for security bugs — see SECURITY.md."
+  - name: "📖 Setup & troubleshooting guide"
+    url: "https://pinchfoundry.github.io/Pinch/"
+    about: "Run `npm run doctor` and `npm run brain` first to diagnose local setup issues."
