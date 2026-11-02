@@ -1,101 +1,102 @@
 <div align="center">
 
-<img src="./banner.svg" alt="Pinch Foundry — small, audited, local-first software that runs on your own machine" width="100%" />
+<a href="https://github.com/Quasynvo"><img src="https://raw.githubusercontent.com/Quasynvo/.github/main/profile/banner.gif" alt="Quasynvo — Intelligence, in your orbit. Approved orbital-Q logo with decorative orbit animation." width="100%" /></a>
 
-<br /><br />
+### Intelligence, in your orbit.
 
-**Software that runs on your machine, not someone else's.**
+**Local-first thinking. Human-first tools.**
 
-[**Pinch**](https://github.com/pinchfoundry/Pinch) · [Docs](https://pinchfoundry.github.io/Pinch/) · [Good first issues](https://github.com/pinchfoundry/Pinch/labels/good%20first%20issue) · [Contributing](./CONTRIBUTING.md)
+We build open-source AI software that helps people get things done—<br />
+with understandable behavior, visible permissions and room to make it their own.
+
+[**Explore Quasnooze →**](https://github.com/Quasynvo/Quasnooze) · [Get started](https://github.com/Quasynvo/Quasnooze#start-in-three-steps) · [Contribute](https://github.com/Quasynvo/.github/blob/main/CONTRIBUTING.md) · [Security](https://github.com/Quasynvo/.github/blob/main/SECURITY.md)
+
+<sub>Prefer no animation? [View the static banner.](https://raw.githubusercontent.com/Quasynvo/.github/main/profile/banner.png)</sub>
 
 </div>
 
 ---
 
-## Why this org exists
+## A little less friction. A lot more agency.
 
-Every assistant now wants your data in its cloud, your keys in its vault, and your attention in its
-subscription funnel. Pinch Foundry builds the other thing: software you own, run, and can read all
-the way through.
+AI should help you do useful work without making its boundaries harder to understand.
+**Quasynvo** is the organization behind **Quasnooze**, our local-first personal assistant.
+We favor software people can inspect, configure and improve—not unexplained claims or invisible actions.
 
-Three rules we don't break:
-
-| Rule | What it means in practice |
+| What we value | What that means today |
 | :--- | :--- |
-| **It runs on your hardware** | Local model by default. No account, no server of ours in the path. |
-| **It fits in your head** | ~7,300 lines. Small enough to audit before you trust it with a shell. |
-| **It admits what it can't do** | Our own [security audit](https://github.com/pinchfoundry/Pinch/blob/main/docs/AUDIT.md) lists the findings we haven't fixed yet. |
+| **Local-first, by choice** | Local reasoning with your configured model by default. Optional cloud providers, network tools and messaging channels have their own data boundaries. |
+| **People stay in control** | Visible tool activity, workspace policy and explicit approval for sensitive actions. A wake phrase or an animation is not permission. |
+| **Clarity over hype** | Public capability documentation, known limitations and regression tests. Local does not automatically mean encrypted or OS-sandboxed. |
+| **Built in the open** | Read the code, discuss an issue, improve the docs or submit a focused, tested PR. Independent review and human merges matter. |
 
----
+## Meet Quasnooze
 
-## Projects
+### Your everyday tools. A cosmic companion. Your permission, first.
 
-<table>
-<tr>
-<td width="50%" valign="top">
+[**Quasnooze**](https://github.com/Quasynvo/Quasnooze) is a personal AI assistant you run on your own computer.
+Its cosmic sloth is the product companion; the **orbital Q is Quasynvo’s organization identity**.
 
-### 🦞 [Pinch](https://github.com/pinchfoundry/Pinch)
+- **Ask, write and plan:** conversation, personas and remembered facts, using your configured model.
+- **Work with your information:** bounded document search, supported attachments, reminders and local history.
+- **Use tools visibly:** file and command tools, optional extensions, real results and sensitive-action approvals.
+- **Keep it nearby:** Windows tray/widget and opt-in local voice, plus web and optional messaging channels.
 
-A local-first personal AI assistant you message from Telegram, Discord, Slack, WhatsApp or a
-browser tab. Reads files, runs commands behind an approval gate, remembers you, runs your
-reminders.
+**Important:** the Windows resident and illustrated conversation experiences are previews.
+Physical wake-word, microphone, startup and accessibility acceptance still need testing.
+The character is a **2.5D illustration**, not a VR/3D model or phoneme-accurate lipsync system.
+Optional browser recognition may involve its vendor; native Windows voice is the local option.
 
-`zero runtime dependencies` · `MIT` · `Node 22+`
+[**Start with the README →**](https://github.com/Quasynvo/Quasnooze#start-in-three-steps) · [Capability inventory](https://github.com/Quasynvo/Quasnooze/blob/main/docs/CAPABILITIES.json) · [Desktop guide](https://github.com/Quasynvo/Quasnooze/blob/main/docs/DESKTOP.md) · [Audit & known limits](https://github.com/Quasynvo/Quasnooze/blob/main/docs/AUDIT.md)
 
-[**Get started →**](https://github.com/pinchfoundry/Pinch#install-it-in-two-commands)
+## From curiosity to a working checkout
 
-</td>
-<td width="50%" valign="top">
+With **Node.js 22+** installed:
 
-### 🧰 `.github`
-
-You're looking at it. Org-wide community health defaults — code of conduct, contributing guide,
-security policy, issue and PR templates — inherited by every repo we create.
-
-`the boring infrastructure that makes contributions possible`
-
-[**Read the defaults →**](https://github.com/pinchfoundry/.github)
-
-</td>
-</tr>
-</table>
-
----
-
-## How to get involved
-
-```bash
-git clone https://github.com/pinchfoundry/Pinch && cd Pinch
-npm run setup     # one guided command: model → channels → voice → key
-npm start         # http://localhost:7777
+```sh
+git clone https://github.com/Quasynvo/Quasnooze.git
+cd Quasnooze
+npm run setup
+npm run doctor
+npm run brain
+npm run desktop
 ```
 
-No build step. No dependency install. If it runs, you can hack on it.
+Use `npm start` instead of `npm run desktop` for web/channels or a Linux/macOS host.
+Real local reasoning requires a configured, running **Ollama** model. Optional integrations
+need their own setup; a microphone is never made available merely by opening this profile.
+See the [complete setup guide](https://github.com/Quasynvo/Quasnooze#start-in-three-steps) before exposing a service or enabling powerful tools.
 
-**Three ways to start, in order of effort:**
+> **Coming from Pinch / Pinch Foundry?** The project is now **Quasnooze by Quasynvo**.
+> Existing CLI/configuration aliases and saved state remain supported.
+> [Read the migration rules →](https://github.com/Quasynvo/Quasnooze/blob/main/docs/REBRANDING.md)
 
-| Time | Do this |
+## Find your place in the next orbit
+
+You do not need to build a new AI model to make a useful contribution.
+
+| Start with… | A good next step |
 | :--- | :--- |
-| **5 minutes** | Find a bug, open an issue with your `pinch doctor` output |
-| **1 hour** | Pick a [good first issue](https://github.com/pinchfoundry/Pinch/labels/good%20first%20issue) — each one names the exact files and the command that proves it works |
-| **A weekend** | Add a tool. [CONTRIBUTING.md](./CONTRIBUTING.md) has the whole recipe, and it is genuinely small |
+| **Something confusing** | Improve an explanation, setup step or honest limitation. |
+| **Something broken** | File a minimal reproduction—without tokens, private paths or conversation dumps. |
+| **A contributor task** | Choose an [open help-wanted issue](https://github.com/Quasynvo/Quasnooze/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22), comment to coordinate and add a focused regression. |
+| **A bigger idea** | Start with an issue describing the problem, evidence, boundaries and smallest useful change. |
 
-Every fix needs a regression test. Not because we like ceremony — because a bug that comes back
-once will come back again.
+No invented task quotas, benchmark numbers or customer counts. The contributor queue is
+bounded and evidence-backed; the [open board](https://github.com/Quasynvo/Quasnooze/issues) is authoritative.
 
----
+## Our shared foundation
 
-## Community & governance
-
-| | |
+| Resource | Where to go |
 | :--- | :--- |
-| **Code of Conduct** | [Contributor Covenant v2.1](./CODE_OF_CONDUCT.md) — enforced |
-| **Security** | [Report privately](./SECURITY.md). Never in a public issue. |
-| **Contributing** | [CONTRIBUTING.md](./CONTRIBUTING.md) — setup, style, commit conventions |
-| **Support** | [docs/SUPPORT.md](https://github.com/pinchfoundry/Pinch/blob/main/docs/SUPPORT.md) |
-| **Roadmap** | [.github/roadmap.json](https://github.com/pinchfoundry/Pinch/blob/main/.github/roadmap.json) — human-reviewed, never generated |
+| **Organization defaults** | [Quasynvo/.github](https://github.com/Quasynvo/.github) — community health files and this profile; repositories may override eligible defaults. |
+| **Contributing** | [Contribution guide](https://github.com/Quasynvo/.github/blob/main/CONTRIBUTING.md) |
+| **Community standards** | [Code of Conduct](https://github.com/Quasynvo/.github/blob/main/CODE_OF_CONDUCT.md) |
+| **Security reports** | [Report privately](https://github.com/Quasynvo/.github/blob/main/SECURITY.md); never post vulnerability details or credentials in a public issue. |
+| **Product support** | [Quasnooze support](https://github.com/Quasynvo/Quasnooze/blob/main/docs/SUPPORT.md) |
 
 <div align="center">
 <br />
-<sub>Built to run on a laptop, in a room, for one person. 🦞</sub>
+<strong>Quasynvo</strong> · Intelligence, in your orbit.<br />
+<sub>Maintained by <a href="https://github.com/RANJITHROSAN17">Ranjith Rosan</a> and the open-source contributors.</sub>
 </div>

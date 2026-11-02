@@ -2,7 +2,7 @@
 
 ## Our Pledge
 
-We as members, contributors, and leaders pledge to make participation in the Pinch Foundry community
+We as members, contributors, and leaders pledge to make participation in the Quasynvo community
 a harassment-free experience for everyone, regardless of age, body size, visible or invisible
 disability, ethnicity, sex characteristics, gender identity and expression, level of experience,
 education, socio-economic status, nationality, personal appearance, race, religion, or sexual
@@ -63,8 +63,8 @@ the community in public spaces.
 Instances of abusive, harassing, or otherwise unacceptable behavior may be reported to the community
 leaders responsible for enforcement at:
 
-**`conduct [at] pinchfoundry` — via a private message to the repository maintainer, or by opening a
-[private security advisory](https://github.com/pinchfoundry/.github/security/advisories/new) if you
+**Via a private message to the repository maintainer, or by opening a
+[private security advisory](https://github.com/Quasynvo/.github/security/advisories/new) if you
 prefer a channel that leaves a record.**
 
 All complaints will be reviewed and investigated promptly and fairly. All community leaders are

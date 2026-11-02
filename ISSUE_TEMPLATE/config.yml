@@ -1,11 +1,11 @@
 blank_issues_enabled: true
 contact_links:
-  - name: "Good first issues (curated queue)"
-    url: "https://github.com/pinchfoundry"
+  - name: "Contributor tasks (open board)"
+    url: "https://github.com/Quasynvo/Quasnooze/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22"
     about: "Human-reviewed, self-contained tasks with exact file paths and verification commands."
   - name: "Report a security vulnerability privately"
-    url: "https://github.com/pinchfoundry/.github/security/advisories/new"
+    url: "https://github.com/Quasynvo/.github/security/advisories/new"
     about: "Please do NOT open a public issue for security bugs — see SECURITY.md."
   - name: "📖 Setup & troubleshooting guide"
-    url: "https://pinchfoundry.github.io/Pinch/"
+    url: "https://quasynvo.github.io/Quasnooze/"
     about: "Run `npm run doctor` and `npm run brain` first to diagnose local setup issues."
