@@ -1,57 +1,48 @@
 <div align="center">
 
-<a href="https://github.com/Quasynvo"><img src="https://raw.githubusercontent.com/Quasynvo/.github/main/profile/banner.gif" alt="Quasynvo — Intelligence, in your orbit. Approved orbital-Q logo with decorative orbit animation." width="100%" /></a>
+<a href="https://github.com/Quasynvo"><img src="https://raw.githubusercontent.com/Quasynvo/.github/main/profile/banner.png" alt="Quasynvo — Intelligence, in your orbit. The orbital Q against a teal nebula." width="100%" /></a>
 
-### Intelligence, in your orbit.
+### Thoughtful AI, closer to home.
 
-**Local-first thinking. Human-first tools.**
+We build open-source tools that help people do more with AI—<br />
+without losing sight of what runs, where data goes, or who is in control.
 
-We build open-source AI software that helps people get things done—<br />
-with understandable behavior, visible permissions and room to make it their own.
+[**Explore Quasnooze →**](https://github.com/Quasynvo/Quasnooze) &nbsp; · &nbsp; [Get started](https://github.com/Quasynvo/Quasnooze#start-in-three-steps) &nbsp; · &nbsp; [Contribute](https://github.com/Quasynvo/.github/blob/main/CONTRIBUTING.md) &nbsp; · &nbsp; [Security](https://github.com/Quasynvo/.github/blob/main/SECURITY.md)
 
-[**Explore Quasnooze →**](https://github.com/Quasynvo/Quasnooze) · [Get started](https://github.com/Quasynvo/Quasnooze#start-in-three-steps) · [Contribute](https://github.com/Quasynvo/.github/blob/main/CONTRIBUTING.md) · [Security](https://github.com/Quasynvo/.github/blob/main/SECURITY.md)
-
-<sub>Prefer no animation? [View the static banner.](https://raw.githubusercontent.com/Quasynvo/.github/main/profile/banner.png)</sub>
+<sub>Static artwork by default · [View the decorative animated banner](https://raw.githubusercontent.com/Quasynvo/.github/main/profile/banner.gif)</sub>
 
 </div>
 
 ---
 
-## A little less friction. A lot more agency.
+## Meet Quasnooze ✦
 
-AI should help you do useful work without making its boundaries harder to understand.
-**Quasynvo** is the organization behind **Quasnooze**, our local-first personal assistant.
-We favor software people can inspect, configure and improve—not unexplained claims or invisible actions.
+**Your everyday tools. A cosmic companion. Your permission, first.**
 
-| What we value | What that means today |
-| :--- | :--- |
-| **Local-first, by choice** | Local reasoning with your configured model by default. Optional cloud providers, network tools and messaging channels have their own data boundaries. |
-| **People stay in control** | Visible tool activity, workspace policy and explicit approval for sensitive actions. A wake phrase or an animation is not permission. |
-| **Clarity over hype** | Public capability documentation, known limitations and regression tests. Local does not automatically mean encrypted or OS-sandboxed. |
-| **Built in the open** | Read the code, discuss an issue, improve the docs or submit a focused, tested PR. Independent review and human merges matter. |
+[Quasnooze](https://github.com/Quasynvo/Quasnooze) is our local-first personal assistant. It runs on your computer, works with Ollama, and brings conversation, useful tools and a little cosmic calm into one place.
 
-## Meet Quasnooze
+<a href="https://github.com/Quasynvo/Quasnooze"><img src="https://raw.githubusercontent.com/Quasynvo/Quasnooze/main/docs/images/cosmic-conversation.png" alt="Scripted Quasnooze conversation preview showing the cosmic sloth companion and a sample chat panel." width="100%" /></a>
 
-### Your everyday tools. A cosmic companion. Your permission, first.
+<sub>Illustrated, scripted UI preview—not a live model response or microphone demonstration.</sub>
 
-[**Quasnooze**](https://github.com/Quasynvo/Quasnooze) is a personal AI assistant you run on your own computer.
-Its cosmic sloth is the product companion; the **orbital Q is Quasynvo’s organization identity**.
+- **Think & create** — ask questions, draft, plan, and use personas and remembered facts.
+- **Find & remember** — search supported documents and local history, set reminders, and work with attachments.
+- **Act with visibility** — inspect tool activity and approve sensitive actions before they run, subject to your configured policies.
+- **Stay connected** — use the browser, the Windows companion, or optional Telegram, Discord, Slack and WhatsApp channels.
 
-- **Ask, write and plan:** conversation, personas and remembered facts, using your configured model.
-- **Work with your information:** bounded document search, supported attachments, reminders and local history.
-- **Use tools visibly:** file and command tools, optional extensions, real results and sensitive-action approvals.
-- **Keep it nearby:** Windows tray/widget and opt-in local voice, plus web and optional messaging channels.
+[**Explore the project →**](https://github.com/Quasynvo/Quasnooze) &nbsp; · &nbsp; [Capabilities](https://github.com/Quasynvo/Quasnooze/blob/main/docs/CAPABILITIES.json) &nbsp; · &nbsp; [Desktop guide](https://github.com/Quasynvo/Quasnooze/blob/main/docs/DESKTOP.md)
 
-**Important:** the Windows resident and illustrated conversation experiences are previews.
-Physical wake-word, microphone, startup and accessibility acceptance still need testing.
-The character is a **2.5D illustration**, not a VR/3D model or phoneme-accurate lipsync system.
-Optional browser recognition may involve its vendor; native Windows voice is the local option.
+## Made for people, not mystery
 
-[**Start with the README →**](https://github.com/Quasynvo/Quasnooze#start-in-three-steps) · [Capability inventory](https://github.com/Quasynvo/Quasnooze/blob/main/docs/CAPABILITIES.json) · [Desktop guide](https://github.com/Quasynvo/Quasnooze/blob/main/docs/DESKTOP.md) · [Audit & known limits](https://github.com/Quasynvo/Quasnooze/blob/main/docs/AUDIT.md)
+**Local-first, by choice.** Ollama can handle reasoning on your own machine. Optional cloud providers, network tools and messaging channels have separate data boundaries.
 
-## From curiosity to a working checkout
+**Your actions, your say.** Workspace policies, visible activity and approval prompts put people in the loop. A wake phrase is not authentication; local software is not automatically encrypted or OS-sandboxed.
 
-With **Node.js 22+** installed:
+**Open by nature.** Read the code, check the evidence, report a problem or help make it better. We value honest limits over inflated claims.
+
+## Start your orbit
+
+You'll need **Node.js 22+** and a configured, running Ollama model for real local reasoning.
 
 ```sh
 git clone https://github.com/Quasynvo/Quasnooze.git
@@ -59,44 +50,39 @@ cd Quasnooze
 npm run setup
 npm run doctor
 npm run brain
-npm run desktop
+npm start
 ```
 
-Use `npm start` instead of `npm run desktop` for web/channels or a Linux/macOS host.
-Real local reasoning requires a configured, running **Ollama** model. Optional integrations
-need their own setup; a microphone is never made available merely by opening this profile.
-See the [complete setup guide](https://github.com/Quasynvo/Quasnooze#start-in-three-steps) before exposing a service or enabling powerful tools.
+For the Windows tray/widget, use `npm run desktop` instead. The web and configured-channel assistant also runs on Linux and macOS. Keep an unauthenticated server local; see the [complete setup guide](https://github.com/Quasynvo/Quasnooze#start-in-three-steps) before exposing services or enabling powerful tools.
 
-> **Coming from Pinch / Pinch Foundry?** The project is now **Quasnooze by Quasynvo**.
-> Existing CLI/configuration aliases and saved state remain supported.
-> [Read the migration rules →](https://github.com/Quasynvo/Quasnooze/blob/main/docs/REBRANDING.md)
+<details>
+<summary><strong>Product status & privacy notes</strong></summary>
 
-## Find your place in the next orbit
+The Windows resident and illustrated conversation experiences are **previews**. Physical wake-word, microphone, startup and accessibility acceptance still need testing. The companion is a **2.5D illustration**, not a VR/3D model or phoneme-accurate lipsync system.
 
-You do not need to build a new AI model to make a useful contribution.
+Browser speech recognition may involve its vendor; native Windows voice is the local option. Optional integrations can send data to their providers. See the [voice guide](https://github.com/Quasynvo/Quasnooze/blob/main/docs/VOICE.md), [security audit and known limits](https://github.com/Quasynvo/Quasnooze/blob/main/docs/AUDIT.md), and [capability inventory](https://github.com/Quasynvo/Quasnooze/blob/main/docs/CAPABILITIES.json).
 
-| Start with… | A good next step |
-| :--- | :--- |
-| **Something confusing** | Improve an explanation, setup step or honest limitation. |
-| **Something broken** | File a minimal reproduction—without tokens, private paths or conversation dumps. |
-| **A contributor task** | Choose an [open help-wanted issue](https://github.com/Quasynvo/Quasnooze/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22), comment to coordinate and add a focused regression. |
-| **A bigger idea** | Start with an issue describing the problem, evidence, boundaries and smallest useful change. |
+</details>
 
-No invented task quotas, benchmark numbers or customer counts. The contributor queue is
-bounded and evidence-backed; the [open board](https://github.com/Quasynvo/Quasnooze/issues) is authoritative.
+<details>
+<summary><strong>Previously using Pinch?</strong></summary>
 
-## Our shared foundation
+The project is now **Quasnooze by Quasynvo**. Existing CLI/configuration aliases and saved state remain supported. See the [migration rules](https://github.com/Quasynvo/Quasnooze/blob/main/docs/REBRANDING.md).
 
-| Resource | Where to go |
-| :--- | :--- |
-| **Organization defaults** | [Quasynvo/.github](https://github.com/Quasynvo/.github) — community health files and this profile; repositories may override eligible defaults. |
-| **Contributing** | [Contribution guide](https://github.com/Quasynvo/.github/blob/main/CONTRIBUTING.md) |
-| **Community standards** | [Code of Conduct](https://github.com/Quasynvo/.github/blob/main/CODE_OF_CONDUCT.md) |
-| **Security reports** | [Report privately](https://github.com/Quasynvo/.github/blob/main/SECURITY.md); never post vulnerability details or credentials in a public issue. |
-| **Product support** | [Quasnooze support](https://github.com/Quasynvo/Quasnooze/blob/main/docs/SUPPORT.md) |
+</details>
+
+---
+
+## Build with us
+
+There is room for more than code. Improve a guide, reproduce a bug, review a change, or bring a focused idea to the conversation.
+
+[**Find an issue →**](https://github.com/Quasynvo/Quasnooze/issues) &nbsp; · &nbsp; [Help-wanted tasks](https://github.com/Quasynvo/Quasnooze/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22) &nbsp; · &nbsp; [Contribution guide](https://github.com/Quasynvo/.github/blob/main/CONTRIBUTING.md) &nbsp; · &nbsp; [Code of Conduct](https://github.com/Quasynvo/.github/blob/main/CODE_OF_CONDUCT.md)
+
+Found a security issue? [Report it privately](https://github.com/Quasynvo/.github/blob/main/SECURITY.md)—please don't post credentials or vulnerability details in a public issue. Need help with the product? See [Quasnooze support](https://github.com/Quasynvo/Quasnooze/blob/main/docs/SUPPORT.md).
 
 <div align="center">
 <br />
 <strong>Quasynvo</strong> · Intelligence, in your orbit.<br />
-<sub>Maintained by <a href="https://github.com/RANJITHROSAN17">Ranjith Rosan</a> and the open-source contributors.</sub>
+<sub>Maintained by <a href="https://github.com/RANJITHROSAN17">Ranjith Rosan</a> and open-source contributors.</sub>
 </div>

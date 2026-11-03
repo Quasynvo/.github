@@ -26,4 +26,13 @@ class ProfileChecks(unittest.TestCase):
  def test_product_boundaries_remain_explicit(self):
   text=(ROOT/'profile/README.md').read_text()
   for phrase in ['previews','OS-sandboxed','2.5D','Physical wake-word','sensitive actions','Optional cloud providers']:self.assertIn(phrase,text)
+ def test_profile_is_static_first_and_preview_is_labelled(self):
+  text=(ROOT/'profile/README.md').read_text()
+  first_image=re.search(r'<img\s+src="([^"]+)"\s+alt="([^"]+)"',text)
+  self.assertIsNotNone(first_image)
+  self.assertTrue(first_image.group(1).endswith('/profile/banner.png'))
+  self.assertTrue(first_image.group(2))
+  self.assertIn('scripted UI preview',text)
+  self.assertNotIn('<script',text.lower())
+  self.assertTrue((ROOT/'profile/orbit-background.jpg').is_file())
 if __name__=='__main__':unittest.main(verbosity=2)
